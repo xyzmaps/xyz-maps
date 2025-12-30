@@ -12,7 +12,6 @@
     "url": "https://github.com/heremaps/xyz-maps.git"
   },
   "scripts": {
-    "prepare": "bun run husky install",
     "test": "bun test",
     "test:unit": "bun test packages/tests/unit",
     "test:integration": "bun test packages/tests/integration",
@@ -46,8 +45,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "fs-extra": "^10.1.0",
     "http-server": "^14.1.1",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
     "playwright": "^1.40.0",
     "ts-node": "^10.9.1",
     "typedoc": "^0.19.2",
@@ -60,8 +57,5 @@
   "engines": {
     "node": ">=20",
     "bun": ">=1.0.0"
-  },
-  "lint-staged": {
-    "*.{js,ts}": "eslint --cache --fix"
   }
 }
