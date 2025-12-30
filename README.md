@@ -71,9 +71,9 @@ All build outputs are located in `packages/*/dist/`.
 
 ### Setup XYZ Token (Optional)
 
-An XYZ token is only required if you're using the XYZ Hub endpoint at `xyz.api.here.com`. You can obtain a token by following the instructions in the [XYZ Hub guide](https://www.here.xyz/api/getting-token/).
+An XYZ token is only required if you're using authenticating XYZ Hub endpoints.
 
-For local development or custom backends, you can set an empty token:
+For local development or custom backends, you can set an dummy token if needed:
 
 ```bash
 bun run set-access-token YOUR_ACCESS_TOKEN
@@ -308,7 +308,8 @@ This project has been modernized from Yarn/Rollup/Karma to Bun. See [MIGRATION-S
 
 ## License
 
-Copyright (C) 2019-2025 XYZmaps contributors
+Copyright (C) 2025 XYZmaps contributors
+Copyright (C) 2019-2021 HERE Europe B.V.
 
 This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
 
