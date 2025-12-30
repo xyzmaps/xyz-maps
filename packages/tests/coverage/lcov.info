@@ -1,4 +1,12 @@
 TN:
+SF:../common/dist/xyz-maps-common.min.js
+FNF:281
+FNH:90
+DA:5,60848
+LF:1
+LH:1
+end_of_record
+TN:
 SF:test-utils/setup.ts
 FNF:1
 FNH:1

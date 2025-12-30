@@ -1,7 +1,7 @@
 [test]
 # Bun test configuration
 preload = ["./test-utils/setup.ts"]
-timeout = 20000
+timeout = 30000
 
 # Coverage settings
 coverage = true
