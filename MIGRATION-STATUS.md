@@ -16,17 +16,22 @@
   - Replaced Rollup v3.29.5 with Bun's native bundler
   - Created custom GLSL shader plugin (`build/bun-glsl-plugin.ts`)
   - Created virtual module generator (`build/generate-virtual-modules.ts`)
-  - Migrated all 4 packages to use `build.ts` scripts
+  - Migrated all 4 core packages to use `build.ts` scripts
+  - Migrated playground package from Rollup to Bun bundler
+  - Implemented SCSS compilation with sass package for playground
+  - Created virtual module plugins for playground (examples, settings, timestamp)
   - Switched from UMD+ESM to ESM-only output (modern)
   - Fixed buildInfo and virtual module imports
+  - Removed ALL Rollup dependencies from entire project
 
 **Build Performance**: Significantly faster with Bun's native bundler
 
 **Bundles Created**:
-- `@here/xyz-maps-common` - 1 file
-- `@here/xyz-maps-core` - 3 files (index, shared, workers)
-- `@here/xyz-maps-display` - 1 file (with 27 compiled GLSL shaders)
-- `@here/xyz-maps-editor` - 1 file
+- `@xyzmaps/xyz-maps-common` - 1 file
+- `@xyzmaps/xyz-maps-core` - 3 files (index, shared, workers)
+- `@xyzmaps/xyz-maps-display` - 1 file (with 27 compiled GLSL shaders)
+- `@xyzmaps/xyz-maps-editor` - 1 file
+- `@xyzmaps/xyz-maps-playground` - React app (index.js 3.4MB, index.css 6.9KB)
 
 ### Phase 3: Monorepo Tool ✓
 - **Status**: Complete
