@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {Set} from '@here/xyz-maps-common';
+import {Set} from '@xyzmaps/xyz-maps-common';
 import InternalEditor from './IEditor';
 import ObserverHandler from './handlers/ObserverHandler';
 

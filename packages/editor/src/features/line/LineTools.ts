@@ -22,7 +22,7 @@ import {LineShape} from './LineShape';
 import {getSegmentIndex, getPntAt, simplifyPath} from '../../geometry';
 import VirtualShape from './VirtualShape';
 import {Line} from './Line';
-import {GeoJSONCoordinate, webMercator} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, webMercator} from '@xyzmaps/xyz-maps-core';
 import FeatureTools from '../feature/FeatureTools';
 import {Feature} from '../feature/Feature';
 

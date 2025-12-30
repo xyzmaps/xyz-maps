@@ -28,7 +28,7 @@ import {triggerEvent} from './triggerEvent';
 import InternalEditor from '../../IEditor';
 import {Navlink} from '../link/Navlink';
 import {Location} from './Location';
-import {Feature, GeoJSONCoordinate} from '@here/xyz-maps-core';
+import {Feature, GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
 import LocationTools from './LocationTools';
 import {EDIT_RESTRICTION} from '../../API/EditorOptions';
 // will be set in constructor to avoid circular dep warnings

@@ -20,7 +20,7 @@
 import {LineBuffer} from './templates/LineBuffer';
 import {addLineString, Cap, Join} from './addLineString';
 import {DashAtlas} from '../DashAtlas';
-import {GeoJSONCoordinate as Coordinate, Tile} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate as Coordinate, Tile} from '@xyzmaps/xyz-maps-core';
 import {CollisionData, CollisionHandler} from '../CollisionHandler';
 import {DistanceGroup} from './DistanceGroup';
 import {FlexAttribute} from './templates/TemplateBuffer';

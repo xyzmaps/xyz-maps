@@ -18,8 +18,8 @@
  */
 import {Texture} from './Texture';
 import {GradientFactory, LinearGradientStops} from './GradientFactory';
-import {Color, LinearGradient} from '@here/xyz-maps-core';
-import {Color as Colors} from '@here/xyz-maps-common';
+import {Color, LinearGradient} from '@xyzmaps/xyz-maps-core';
+import {Color as Colors} from '@xyzmaps/xyz-maps-common';
 
 export class FillTexture extends Texture {
     ref: number = 0;

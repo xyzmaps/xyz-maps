@@ -16,9 +16,9 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {ModelData} from '@here/xyz-maps-core';
+import {ModelData} from '@xyzmaps/xyz-maps-core';
 import {XYZWorker} from './XYZWorker';
-import {Material} from '@here/xyz-maps-core';
+import {Material} from '@xyzmaps/xyz-maps-core';
 
 type Face = {
     material: string;

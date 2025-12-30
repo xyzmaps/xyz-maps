@@ -24,7 +24,7 @@ import NavlinkTools from './link/NavlinkTools';
 import LocationTools from './location/LocationTools';
 import {Feature} from './feature/Feature';
 import {Marker} from './marker/Marker';
-import {geotools, vec3} from '@here/xyz-maps-common';
+import {geotools, vec3} from '@xyzmaps/xyz-maps-common';
 import {getClosestPntOnLine, rayIntersectPlane} from '../geometry';
 import InternalEditor from '../IEditor';
 

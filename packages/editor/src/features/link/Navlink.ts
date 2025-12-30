@@ -23,8 +23,8 @@ import {TrEditor, TurnRestrictionEditor} from '../../tools/turnrestriction/TrEdi
 import DirectionHint from '../../tools/DirectionHint';
 import oTools from './NavlinkTools';
 import {Feature} from '../feature/Feature';
-import {JSUtils} from '@here/xyz-maps-common';
-import {GeoJSONCoordinate, GeoPoint, PixelPoint, Style} from '@here/xyz-maps-core';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
+import {GeoJSONCoordinate, GeoPoint, PixelPoint, Style} from '@xyzmaps/xyz-maps-core';
 import lineTools from '../line/LineTools';
 
 

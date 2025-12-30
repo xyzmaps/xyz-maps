@@ -16,7 +16,7 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {Feature, FeatureProvider, GeoJSONCoordinate, GeoJSONFeature, Style} from '@here/xyz-maps-core';
+import {Feature, FeatureProvider, GeoJSONCoordinate, GeoJSONFeature, Style} from '@xyzmaps/xyz-maps-core';
 import InternalEditor from '../../IEditor';
 import Overlay from '../../features/Overlay';
 import Transformer from './Transformer';

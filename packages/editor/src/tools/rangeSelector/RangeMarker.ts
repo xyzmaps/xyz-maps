@@ -19,9 +19,9 @@
 
 import {getPointAtLength, getSegmentIndex, getTotalLength} from '../../geometry';
 import {calcRelPosOfPoiAtLink, getRelPosOfPointOnLine} from '../../map/GeoMath';
-import {Feature, GeoJSONCoordinate, CircleStyle, RectStyle, webMercator, Style} from '@here/xyz-maps-core';
-import {JSUtils, geotools} from '@here/xyz-maps-common';
-import {MapEvent} from '@here/xyz-maps-display';
+import {Feature, GeoJSONCoordinate, CircleStyle, RectStyle, webMercator, Style} from '@xyzmaps/xyz-maps-core';
+import {JSUtils, geotools} from '@xyzmaps/xyz-maps-common';
+import {MapEvent} from '@xyzmaps/xyz-maps-display';
 import MultiLink, {MultiLinkSegment} from './MultiLink';
 import {Range} from './Range';
 import InternalEditor from '../../IEditor';

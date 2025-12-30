@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {Listener} from '@here/xyz-maps-common';
-import {EditableFeatureProvider, Feature, GeoJSONCoordinate} from '@here/xyz-maps-core';
+import {Listener} from '@xyzmaps/xyz-maps-common';
+import {EditableFeatureProvider, Feature, GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
 import History from './features/History';
 import {Navlink} from './features/link/Navlink';
 

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils} from '@here/xyz-maps-common';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import {Feature} from './feature/Feature';
 
 const EDITOR_NS = '@ns:com:here:editor';

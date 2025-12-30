@@ -18,7 +18,7 @@
  */
 
 import BasicTile from './BasicTile';
-import {TileLayer, Tile, Color} from '@here/xyz-maps-core';
+import {TileLayer, Tile, Color} from '@xyzmaps/xyz-maps-core';
 
 interface BasicRender {
 

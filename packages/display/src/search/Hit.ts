@@ -27,7 +27,7 @@ import {
     getPolygonCenter
 } from '../displays/styleTools';
 import {Map} from '../Map';
-import {Feature} from '@here/xyz-maps-core';
+import {Feature} from '@xyzmaps/xyz-maps-core';
 import {intersectBBox, intersectLineLine} from '../geometry';
 
 type Point = number[]; // [number, number, number?];

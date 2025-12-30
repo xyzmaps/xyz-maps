@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {tileUtils} from '@here/xyz-maps-core';
+import {tileUtils} from '@xyzmaps/xyz-maps-core';
 import {doPolygonsIntersect} from './geometry';
 import BasicDisplay from './displays/BasicDisplay';
 

@@ -1,5 +1,5 @@
-import {TerrainTileLayer, LocalProvider, TileLayer, BoxStyle} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {TerrainTileLayer, LocalProvider, TileLayer, BoxStyle} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 /** setup the Map **/
 const display = new Map(document.getElementById('map'), {
     zoomlevel: 13,

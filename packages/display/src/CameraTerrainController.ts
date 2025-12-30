@@ -19,7 +19,7 @@
 
 import {Map} from './Map';
 import {MapOptions} from './MapOptions';
-import {GeoPoint} from '@here/xyz-maps-core';
+import {GeoPoint} from '@xyzmaps/xyz-maps-core';
 
 
 export class CameraTerrainController {

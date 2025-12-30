@@ -1,6 +1,6 @@
-import {LocalProvider, TerrainTileLayer, TileLayer} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
-import {Editor, Marker} from '@here/xyz-maps-editor';
+import {LocalProvider, TerrainTileLayer, TileLayer} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
+import {Editor, Marker} from '@xyzmaps/xyz-maps-editor';
 
 // Define a layer to display and edit point features
 const markerLayer = new TileLayer({

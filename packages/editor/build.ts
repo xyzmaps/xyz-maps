@@ -23,12 +23,12 @@ const result = await Bun.build({
         syntax: true
     } : false,
     sourcemap: production ? 'none' : 'inline',
-    external: ['@here/xyz-maps-core', '@here/xyz-maps-common', '@here/xyz-maps-display'],
+    external: ['@xyzmaps/xyz-maps-core', '@xyzmaps/xyz-maps-common', '@xyzmaps/xyz-maps-display'],
     banner
 });
 
 if (!result.success) {
-    console.error('Build failed for @here/xyz-maps-editor:');
+    console.error('Build failed for @xyzmaps/xyz-maps-editor:');
     for (const message of result.logs) {
         console.error(message);
     }

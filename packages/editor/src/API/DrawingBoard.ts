@@ -19,12 +19,12 @@
 
 import ClickDraw from '../tools/drawingBoards/ClickDraw';
 import InternalEditor from '../IEditor';
-import {global} from '@here/xyz-maps-common';
+import {global} from '@xyzmaps/xyz-maps-common';
 import {Area} from '../features/area/Area';
 import {Line} from '../features/line/Line';
 import {Navlink} from '../features/link/Navlink';
 
-import {GeoJSONCoordinate, GeoPoint, PixelPoint, Style, TileLayer} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, GeoPoint, PixelPoint, Style, TileLayer} from '@xyzmaps/xyz-maps-core';
 import {EditorEvent} from './EditorEvent';
 import {DrawingShape} from '../tools/drawingBoards/DrawingShape';
 

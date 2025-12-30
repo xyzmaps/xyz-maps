@@ -42,13 +42,13 @@ const result = await Bun.build({
         syntax: true
     } : false,
     sourcemap: production ? 'none' : 'inline',
-    external: ['@here/xyz-maps-core', '@here/xyz-maps-common'],
+    external: ['@xyzmaps/xyz-maps-core', '@xyzmaps/xyz-maps-common'],
     plugins: [glslPlugin],
     banner
 });
 
 if (!result.success) {
-    console.error('Build failed for @here/xyz-maps-display:');
+    console.error('Build failed for @xyzmaps/xyz-maps-display:');
     for (const message of result.logs) {
         console.error(message);
     }

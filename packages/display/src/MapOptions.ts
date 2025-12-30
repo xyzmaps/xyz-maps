@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {Color, GeoPoint, TileLayer} from '@here/xyz-maps-core';
+import {Color, GeoPoint, TileLayer} from '@xyzmaps/xyz-maps-core';
 
 /**
  *  Options to configure the map display.

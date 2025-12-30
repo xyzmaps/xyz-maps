@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {TileLayer} from '@here/xyz-maps-core';
-import Map from '@here/xyz-maps-display';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
+import Map from '@xyzmaps/xyz-maps-display';
 
 
 type VpReadyCallback = Function | (() => void);

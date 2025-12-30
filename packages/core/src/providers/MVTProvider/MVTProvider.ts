@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils, Queue} from '@here/xyz-maps-common';
+import {JSUtils, Queue} from '@xyzmaps/xyz-maps-common';
 import MVTTileLoader from '../../loaders/MVT/MVTLoader';
 import {Feature} from '../../features/Feature';
 import {GeoJSONGeometryType} from '../../features/GeoJSON';

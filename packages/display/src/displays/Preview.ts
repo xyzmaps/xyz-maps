@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {tileUtils, TileLayer} from '@here/xyz-maps-core';
+import {tileUtils, TileLayer} from '@xyzmaps/xyz-maps-core';
 import BasicDisplay from './BasicDisplay';
 import BasicTile from './BasicTile';
 

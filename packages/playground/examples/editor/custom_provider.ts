@@ -1,6 +1,6 @@
-import {MVTLayer, TileLayer, SpaceProvider} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
-import {Editor} from '@here/xyz-maps-editor';
+import {MVTLayer, TileLayer, SpaceProvider} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
+import {Editor} from '@xyzmaps/xyz-maps-editor';
 
 // By default, the editor API handles all features of geometry type 'LineString' as 'LINE', 'Point' as 'MARKER'
 // and '(Multi)Polygon' as 'AREA'. If you want to edit features with feature class 'NAVLINK', 'PLACE' or 'ADDRESS',

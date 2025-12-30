@@ -20,10 +20,10 @@
 import oTools from '../../features/link/NavlinkTools';
 import MultiLink from './MultiLink';
 import InternalEditor from '../../IEditor';
-import {Map} from '@here/xyz-maps-display';
+import {Map} from '@xyzmaps/xyz-maps-display';
 import {Navlink} from '../../features/link/Navlink';
 import {InternalRangeOptions} from './Range';
-import {GeoJSONCoordinate} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
 import {Feature} from '../../features/feature/Feature';
 
 

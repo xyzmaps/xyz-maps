@@ -19,8 +19,8 @@
 
 import {DefaultEditorProperties} from './feature/EditorProperties';
 import {Container} from './Container';
-import {geotools} from '@here/xyz-maps-common';
-import {Feature, FeatureProvider, TileLayer, GeoJSONCoordinate, Style, GeoJSONFeature} from '@here/xyz-maps-core';
+import {geotools} from '@xyzmaps/xyz-maps-common';
+import {Feature, FeatureProvider, TileLayer, GeoJSONCoordinate, Style, GeoJSONFeature} from '@xyzmaps/xyz-maps-core';
 
 let UNDEF;
 

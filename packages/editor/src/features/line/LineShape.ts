@@ -17,11 +17,11 @@
  * License-Filename: LICENSE
  */
 
-import {Feature} from '@here/xyz-maps-core';
+import {Feature} from '@xyzmaps/xyz-maps-core';
 import {Line} from './Line';
 import LineTools, {Coordinate} from './LineTools';
 import {dragFeatureCoordinate} from '../oTools';
-import {vec3} from '@here/xyz-maps-common';
+import {vec3} from '@xyzmaps/xyz-maps-common';
 
 
 let lineTools: typeof LineTools;

@@ -19,7 +19,7 @@
 
 import {getSegmentIndex, getDistance} from '../geometry';
 import oTools from '../features/link/NavlinkTools';
-import {GeoJSONCoordinate, GeoJSONFeature, LineStyle} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, GeoJSONFeature, LineStyle} from '@xyzmaps/xyz-maps-core';
 import {Navlink} from '../features/link/Navlink';
 import CrossingTester from '../tools/CrossingTester';
 import InternalEditor from '../IEditor';

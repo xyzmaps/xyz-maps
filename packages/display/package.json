@@ -1,5 +1,5 @@
 {
-  "name": "@here/xyz-maps-display",
+  "name": "@xyzmaps/xyz-maps-display",
   "version": "0.44.0",
   "description": "Map display of XYZ editor.",
   "author": {
@@ -30,8 +30,8 @@
   },
   "publishConfig": {},
   "dependencies": {
-    "@here/xyz-maps-common": "^0.44.0",
-    "@here/xyz-maps-core": "^0.44.0"
+    "@xyzmaps/xyz-maps-common": "^0.44.0",
+    "@xyzmaps/xyz-maps-core": "^0.44.0"
   },
   "devDependencies": {
     "earcut": "^3.0.2",

@@ -23,7 +23,7 @@ import {GeometryBuffer, Uniform} from '../GeometryBuffer';
 import {Raycaster} from '../../Raycaster';
 import {transformMat4} from 'gl-matrix/vec3';
 import {Attribute} from '../Attribute';
-import {vec3} from '@here/xyz-maps-common';
+import {vec3} from '@xyzmaps/xyz-maps-common';
 import {addPoint} from '../addPoint';
 
 const extentScale = 32;

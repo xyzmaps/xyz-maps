@@ -20,7 +20,7 @@
 import {createTextData, OFFSET_SCALE} from './createText';
 import {GlyphAtlas} from '../GlyphAtlas';
 import {FlexArray} from './templates/FlexArray';
-import {ParsedStyleProperty, TextStyle} from '@here/xyz-maps-core';
+import {ParsedStyleProperty, TextStyle} from '@xyzmaps/xyz-maps-core';
 
 type TextAnchors = ParsedStyleProperty<TextStyle['textAnchor']>;
 

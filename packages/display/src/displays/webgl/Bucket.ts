@@ -19,7 +19,7 @@
 
 import GLTile from './GLTile';
 import BasicBucket from '../BasicBucket';
-import {LRU} from '@here/xyz-maps-common';
+import {LRU} from '@xyzmaps/xyz-maps-common';
 import {GeometryBuffer} from './buffer/GeometryBuffer';
 import {Layers} from '../Layers';
 

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {TaskManager} from '@here/xyz-maps-common';
+import {TaskManager} from '@xyzmaps/xyz-maps-common';
 import Protobuf from 'pbf';
 import vtLib from '@mapbox/vector-tile';
 import {ProcessedMvtResult} from '../../loaders/MVT/MVTLoader';

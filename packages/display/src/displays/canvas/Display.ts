@@ -20,11 +20,11 @@
 import Renderer from './Canvas';
 import DisplayTilePool from './CanvasTileBucket';
 import BasicDisplay, {ViewportTile} from '../BasicDisplay';
-import {TileLayer} from '@here/xyz-maps-core';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 import CanvasTile from './CanvasTile';
 import CanvasRenderer from './Canvas';
 import LayerClusterer from './LayerClusterer';
-import {TaskManager} from '@here/xyz-maps-common';
+import {TaskManager} from '@xyzmaps/xyz-maps-common';
 
 let DISPLAY_CFG_PR = {
     '1': [

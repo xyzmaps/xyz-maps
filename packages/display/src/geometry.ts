@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {geometry} from '@here/xyz-maps-common';
+import {geometry} from '@xyzmaps/xyz-maps-common';
 
 let UNDEF;
 

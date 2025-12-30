@@ -20,7 +20,7 @@
 import {Map} from '../Map';
 import {Animator, AnimatorOptions} from './Animator';
 import {getDistance} from '../geometry';
-import {GeoPoint, webMercator as project} from '@here/xyz-maps-core';
+import {GeoPoint, webMercator as project} from '@xyzmaps/xyz-maps-core';
 
 class FlightAnimator extends Animator {
     private map: Map;

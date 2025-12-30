@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {LinearGradient} from '@here/xyz-maps-core';
+import {LinearGradient} from '@xyzmaps/xyz-maps-core';
 import {FillTexture} from './TextureManager';
 export type LinearGradientStops = LinearGradient['stops'];
 

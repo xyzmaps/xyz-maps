@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {Tile, Layer as BasicLayer, TileLayer, TerrainTileLayer} from '@here/xyz-maps-core';
-import {Expression, ExpressionParser} from '@here/xyz-maps-common';
+import {Tile, Layer as BasicLayer, TileLayer, TerrainTileLayer} from '@xyzmaps/xyz-maps-core';
+import {Expression, ExpressionParser} from '@xyzmaps/xyz-maps-common';
 import {parseStyleGroup} from './styleTools';
 import {defaultLight, ProcessedLights} from './webgl/lights';
 import {ViewportTile} from './BasicDisplay';

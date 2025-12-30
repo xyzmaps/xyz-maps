@@ -37,7 +37,7 @@ import {
     TextStyle,
     ImageStyle,
     ParsedStyleProperty
-} from '@here/xyz-maps-core';
+} from '@xyzmaps/xyz-maps-core';
 import {TemplateBuffer} from './templates/TemplateBuffer';
 import {addVerticalLine} from './addVerticalLine';
 import {BoxBuffer} from './templates/BoxBuffer';
@@ -45,7 +45,7 @@ import {addBox} from './addBox';
 import {addSphere} from './addSphere';
 import {SphereBuffer} from './templates/SphereBuffer';
 import {TemplateBufferBucket} from './templates/TemplateBufferBucket';
-import {ModelStyle, Color} from '@here/xyz-maps-core';
+import {ModelStyle, Color} from '@xyzmaps/xyz-maps-core';
 import {ModelFactory} from './ModelFactory';
 import {ModelBuffer} from './templates/ModelBuffer';
 import {TerrainModelBuffer} from './templates/TerrainModelBuffer';
@@ -53,7 +53,7 @@ import {ImageInfo} from '../Atlas';
 import {HeatmapBuffer} from './templates/HeatmapBuffer';
 import {TextureAtlasManager} from '../TextureAtlasManager';
 import {LineBuffer} from './templates/LineBuffer';
-import {Color as ColorUtils, Expression, ExpressionMode} from '@here/xyz-maps-common';
+import {Color as ColorUtils, Expression, ExpressionMode} from '@xyzmaps/xyz-maps-common';
 import {TextureManager} from '../TextureManager';
 
 const {toRGB} = ColorUtils;

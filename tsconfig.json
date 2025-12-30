@@ -6,7 +6,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@here/xyz-maps-*": ["packages/*/src"]
+      "@xyzmaps/xyz-maps-*": ["packages/*/src"]
     }
   },
   "exclude": [

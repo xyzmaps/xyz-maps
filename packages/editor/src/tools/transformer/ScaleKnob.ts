@@ -19,7 +19,7 @@
 
 import {Knob} from './Knob';
 import InternalEditor from '../../IEditor';
-import {GeoJSONCoordinate, Style} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, Style} from '@xyzmaps/xyz-maps-core';
 import Overlay from '../../features/Overlay';
 import Transformer, {Corner} from './Transformer';
 import {getClosestPntOnLine, getDistance} from '../../geometry';

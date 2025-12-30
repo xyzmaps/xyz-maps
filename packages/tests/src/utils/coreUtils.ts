@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {FeatureProvider, TileLayer, GeoJSONProvider} from '@here/xyz-maps-core';
+import {FeatureProvider, TileLayer, GeoJSONProvider} from '@xyzmaps/xyz-maps-core';
 import {MonitorXHR, RequestSummary} from './utils';
 
 export function getTileOnProvider(opts: {

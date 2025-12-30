@@ -1,5 +1,5 @@
-import {MVTLayer, TileLayer, SpaceProvider} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {MVTLayer, TileLayer, SpaceProvider} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 /** setup the Map **/
 let backgroundLayer = new MVTLayer({
     min: 1,

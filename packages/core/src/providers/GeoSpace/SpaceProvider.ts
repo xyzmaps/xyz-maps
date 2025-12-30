@@ -19,7 +19,7 @@
 import {GeoJSONFeature} from '../../features/GeoJSON';
 
 
-import {JSUtils, Queue} from '@here/xyz-maps-common';
+import {JSUtils, Queue} from '@xyzmaps/xyz-maps-common';
 
 
 import {SpaceProviderOptions, defaultOptions} from './SpaceOptions';

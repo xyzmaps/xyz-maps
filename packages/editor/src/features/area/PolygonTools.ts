@@ -22,7 +22,7 @@ import {AreaShape} from './AreaShape';
 import {VirtualAreaShape} from './VirtualShape';
 import {HeightKnob} from './HeightKnob';
 import {Area} from './Area';
-import {Feature, GeoJSONCoordinate} from '@here/xyz-maps-core';
+import {Feature, GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
 import FeatureTools from '../feature/FeatureTools';
 
 let UNDEF;

@@ -19,8 +19,8 @@
 
 import InternalEditor from '../../IEditor';
 import {Area} from './Area';
-import {FeatureProvider, Feature, GeoJSONCoordinate, GeoJSONFeature} from '@here/xyz-maps-core';
-import {geometry} from '@here/xyz-maps-common';
+import {FeatureProvider, Feature, GeoJSONCoordinate, GeoJSONFeature} from '@xyzmaps/xyz-maps-core';
+import {geometry} from '@xyzmaps/xyz-maps-common';
 import PolyTools from './PolygonTools';
 import Overlay from '../Overlay';
 import {Coordinate} from '../line/LineTools';

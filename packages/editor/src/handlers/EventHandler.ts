@@ -18,9 +18,9 @@
  */
 
 import {EditorEvent} from '../API/EditorEvent';
-import {Listener} from '@here/xyz-maps-common';
+import {Listener} from '@xyzmaps/xyz-maps-common';
 import {Feature as EditFeature} from '../features/feature/Feature';
-import {Feature} from '@here/xyz-maps-core';
+import {Feature} from '@xyzmaps/xyz-maps-core';
 
 const isInternalEvent = (type: string) => type[0] == '_';
 

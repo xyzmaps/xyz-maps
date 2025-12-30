@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {CustomLayer, Feature, TileLayer} from '@here/xyz-maps-core';
+import {CustomLayer, Feature, TileLayer} from '@xyzmaps/xyz-maps-core';
 
 let UNDEF;
 

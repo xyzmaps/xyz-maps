@@ -26,7 +26,7 @@ import {
     StyleGroupMap,
     StyleValueFunction
 } from '../styles/LayerStyle';
-import {Expression, ExpressionMode, ExpressionParser, Color as Colors} from '@here/xyz-maps-common';
+import {Expression, ExpressionMode, ExpressionParser, Color as Colors} from '@xyzmaps/xyz-maps-common';
 import {TileLayer} from '../layers/TileLayer';
 import {LinearGradient} from './HeatmapStyle';
 

@@ -1,6 +1,6 @@
-import {MVTLayer, TileLayer, SpaceProvider} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
-import {Editor} from '@here/xyz-maps-editor';
+import {MVTLayer, TileLayer, SpaceProvider} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
+import {Editor} from '@xyzmaps/xyz-maps-editor';
 
 // create a TileLayer using a SpaceProvider that's providing the map-data we want to edit.
 const lineLayer = new TileLayer({

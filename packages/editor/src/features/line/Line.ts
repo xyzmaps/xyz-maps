@@ -19,7 +19,7 @@
 
 import {Feature} from '../feature/Feature';
 import tools from './LineTools';
-import {GeoJSONCoordinate, GeoPoint, PixelPoint, webMercator} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, GeoPoint, PixelPoint, webMercator} from '@xyzmaps/xyz-maps-core';
 import {simplifyPath} from '../../geometry';
 import lineTools from './LineTools';
 

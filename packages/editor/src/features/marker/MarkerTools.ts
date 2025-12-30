@@ -18,7 +18,7 @@
  */
 
 import {Marker} from './Marker';
-import {GeoJSONCoordinate} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
 import {Feature} from '../feature/Feature';
 import FeatureTools from '../feature/FeatureTools';
 import {dragFeatureCoordinate} from '../oTools';

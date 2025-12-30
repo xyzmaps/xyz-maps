@@ -25,7 +25,7 @@ import CanvasTile from './CanvasTile';
 import drawLine from './drawLine';
 import drawPoint from './drawPoint';
 
-import {Tile} from '@here/xyz-maps-core';
+import {Tile} from '@xyzmaps/xyz-maps-core';
 
 const DEFAULT_LINE_JOIN_CAP = 'round';
 const DEFAULT_TEXT_ALIGN = 'center';

@@ -18,13 +18,13 @@
  */
 
 import oTools from '../oTools';
-import {JSUtils} from '@here/xyz-maps-common';
-import {Feature as GeoJSONFeature, GeoPoint, EditableRemoteTileProvider, Style} from '@here/xyz-maps-core';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
+import {Feature as GeoJSONFeature, GeoPoint, EditableRemoteTileProvider, Style} from '@xyzmaps/xyz-maps-core';
 import {EditorFeatureProperties, DefaultEditorProperties} from './EditorProperties';
 import {FeatureProperties} from './Properties';
 import InternalEditor from '../../IEditor';
-import {GeoJSONCoordinate} from '@here/xyz-maps-core';
-import {MapEvent} from '@here/xyz-maps-display';
+import {GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
+import {MapEvent} from '@xyzmaps/xyz-maps-display';
 
 
 type EditableProvider = EditableRemoteTileProvider;

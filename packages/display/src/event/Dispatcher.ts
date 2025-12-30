@@ -19,9 +19,9 @@
 
 import {addEventListener, removeEventListener} from '../DOMTools';
 import {MapEvent} from './Event';
-import {Listener, Task} from '@here/xyz-maps-common';
+import {Listener, Task} from '@xyzmaps/xyz-maps-common';
 import {Map} from '../Map';
-import {TileLayer} from '@here/xyz-maps-core';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 
 type EventHandler = (e: Event) => void;
 type MapEventListener = (e: MapEvent) => void;

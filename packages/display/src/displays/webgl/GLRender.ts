@@ -18,7 +18,7 @@
  */
 
 import BasicRender from '../BasicRender';
-import {CustomLayer, tile, Tile, TileLayer} from '@here/xyz-maps-core';
+import {CustomLayer, tile, Tile, TileLayer} from '@xyzmaps/xyz-maps-core';
 import GLTile from './GLTile';
 import RectProgram from './program/Rect';
 import CircleProgram from './program/Circle';
@@ -66,7 +66,7 @@ import BasicTile from '../BasicTile';
 import {Attribute} from './buffer/Attribute';
 import {GLExtensions} from './GLExtensions';
 import {Texture} from './Texture';
-import {Color} from '@here/xyz-maps-common';
+import {Color} from '@xyzmaps/xyz-maps-common';
 import {FillTexture} from './TextureManager';
 import {ViewportTile} from '../BasicDisplay';
 import {RenderTile} from './RenderTile';

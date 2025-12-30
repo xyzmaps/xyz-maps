@@ -17,14 +17,14 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils, geotools, vec3} from '@here/xyz-maps-common';
+import {JSUtils, geotools, vec3} from '@xyzmaps/xyz-maps-common';
 import {
     FeatureProvider,
     Feature,
     GeoJSONFeature,
     GeoJSONCoordinate,
     StyleGroup
-} from '@here/xyz-maps-core';
+} from '@xyzmaps/xyz-maps-core';
 import GeoFence from './GeoFence';
 import {Navlink} from './Navlink';
 import {TurnRestrictionEditor} from '../../tools/turnrestriction/TrEditor';

@@ -19,7 +19,7 @@
 
 import oTools from './LocationTools';
 import {Location} from './Location';
-import {JSUtils} from '@here/xyz-maps-common';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 
 /**
  * The Address Feature is a generic editable Feature with "Point" geometry.

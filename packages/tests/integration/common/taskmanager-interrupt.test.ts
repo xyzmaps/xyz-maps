@@ -18,7 +18,7 @@
  */
 
 import {describe, it, expect, afterAll} from 'bun:test';
-import {TaskManager} from '@here/xyz-maps-common';
+import {TaskManager} from '@xyzmaps/xyz-maps-common';
 
 describe('task manager: interrupts', () => {
     const taskmanager = TaskManager.getInstance();

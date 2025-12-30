@@ -23,10 +23,10 @@ import InternalEditor from '../IEditor';
 
 import {Navlink} from '../features/link/Navlink';
 import {Range as InternalZone} from '../tools/rangeSelector/Range';
-import {MapEvent} from '@here/xyz-maps-display';
+import {MapEvent} from '@xyzmaps/xyz-maps-display';
 import EventHandler from '../handlers/EventHandler';
 import {EditorEvent} from './EditorEvent';
-import {GeoJSONCoordinate, GeoJSONFeature} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, GeoJSONFeature} from '@xyzmaps/xyz-maps-core';
 
 let UNDEF;
 

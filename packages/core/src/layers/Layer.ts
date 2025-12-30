@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {Listener as Listeners} from '@here/xyz-maps-common';
+import {Listener as Listeners} from '@xyzmaps/xyz-maps-common';
 import {LayerOptions} from './LayerOptions';
 
 

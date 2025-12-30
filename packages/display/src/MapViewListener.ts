@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {global} from '@here/xyz-maps-common';
-import {GeoPoint, GeoRect} from '@here/xyz-maps-core';
+import {global} from '@xyzmaps/xyz-maps-common';
+import {GeoPoint, GeoRect} from '@xyzmaps/xyz-maps-core';
 
 const setTimeout = global.setTimeout;
 const setInterval = global.setInterval;

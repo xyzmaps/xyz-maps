@@ -19,7 +19,7 @@
 
 import oTools from './PolygonTools';
 import {Feature} from '../feature/Feature';
-import {GeoJSONCoordinate, GeoPoint, PixelPoint} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, GeoPoint, PixelPoint} from '@xyzmaps/xyz-maps-core';
 import {HeightKnob} from './HeightKnob';
 
 const MIN_HOLE_SIZE = 8;

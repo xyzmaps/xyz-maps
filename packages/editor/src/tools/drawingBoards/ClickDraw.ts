@@ -25,8 +25,8 @@ import {simplifyPath} from '../../geometry';
 import InternalEditor from '../../IEditor';
 import Overlay from '../../features/Overlay';
 import {Navlink} from '../../features/link/Navlink';
-import {JSUtils, global} from '@here/xyz-maps-common';
-import {EditableFeatureProvider, Style, TileLayer} from '@here/xyz-maps-core';
+import {JSUtils, global} from '@xyzmaps/xyz-maps-common';
+import {EditableFeatureProvider, Style, TileLayer} from '@xyzmaps/xyz-maps-core';
 
 const DEFAULT_SHAPE_STYLE = [{
     'type': 'Circle',

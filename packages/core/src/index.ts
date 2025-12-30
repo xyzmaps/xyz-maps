@@ -148,7 +148,7 @@ import {EditableFeatureProvider} from './providers/EditableFeatureProvider';
 import {HTTPLoader} from './loaders/HTTPLoader';
 import Manager from './loaders/Manager';
 import {GeoCoder} from './service/GeoCoder';
-import * as common from '@here/xyz-maps-common';
+import * as common from '@xyzmaps/xyz-maps-common';
 // WORKAROUND IF BUNDELED BY WEBPACK (UMD REMOVAL)
 // make sure global ns is also available for webpack users.
 const XYZMAPS = common.global.here.xyz.maps;

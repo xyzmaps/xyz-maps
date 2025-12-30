@@ -41,7 +41,7 @@ import {
     Color,
     TerrainTileLayer,
     TerrainTileFeature
-} from '@here/xyz-maps-core';
+} from '@xyzmaps/xyz-maps-core';
 import {PASS} from './program/GLStates';
 import {Raycaster} from './Raycaster';
 import {defaultLightUniforms, initLightUniforms, ProcessedLights} from './lights';

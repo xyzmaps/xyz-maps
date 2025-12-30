@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {LayerStyle, LocalProvider, TileLayer} from '@here/xyz-maps-core';
+import {LayerStyle, LocalProvider, TileLayer} from '@xyzmaps/xyz-maps-core';
 import OverlayStyles from '../styles/OverlayStyles';
 import InternalEditor from '../IEditor';
 

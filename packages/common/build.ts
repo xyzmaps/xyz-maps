@@ -27,7 +27,7 @@ const result = await Bun.build({
 });
 
 if (!result.success) {
-    console.error('Build failed for @here/xyz-maps-common:');
+    console.error('Build failed for @xyzmaps/xyz-maps-common:');
     for (const message of result.logs) {
         console.error(message);
     }

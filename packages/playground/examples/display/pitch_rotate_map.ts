@@ -1,5 +1,5 @@
-import {MVTLayer} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {MVTLayer} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 /** setup the basemap layer **/
 const baseMapLayer = new MVTLayer({

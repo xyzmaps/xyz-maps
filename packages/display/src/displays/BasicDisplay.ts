@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {global, Color as ColorUtils} from '@here/xyz-maps-common';
-import {Tile, TileLayer, CustomLayer, XYZLayerStyle, Color, tile} from '@here/xyz-maps-core';
+import {global, Color as ColorUtils} from '@xyzmaps/xyz-maps-common';
+import {Tile, TileLayer, CustomLayer, XYZLayerStyle, Color, tile} from '@xyzmaps/xyz-maps-core';
 import {getElDimension, createCanvas} from '../DOMTools';
 import {Layers, Layer} from './Layers';
 import FeatureModifier from './FeatureModifier';

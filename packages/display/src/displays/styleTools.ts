@@ -20,8 +20,8 @@
 import {wrapText} from './textUtils';
 import {getRotatedBBox} from '../geometry';
 import {GlyphManager} from './webgl/GlyphManager';
-import {Feature, StyleZoomRange, webMercator, Style, StyleGroup, GeoJSONCoordinate} from '@here/xyz-maps-core';
-import {Expression, ExpressionParser, geometry as geometryUtils, Color} from '@here/xyz-maps-common';
+import {Feature, StyleZoomRange, webMercator, Style, StyleGroup, GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
+import {Expression, ExpressionParser, geometry as geometryUtils, Color} from '@xyzmaps/xyz-maps-common';
 import toRGB = Color.toRGB;
 import {StyleExpressionParser} from './Layers';
 

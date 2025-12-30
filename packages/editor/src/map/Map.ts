@@ -16,9 +16,9 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {GeoJSONCoordinate as Point, Feature as GeoJSONFeature} from '@here/xyz-maps-core';
-import {geotools} from '@here/xyz-maps-common';
-import {Map as MapDisplay} from '@here/xyz-maps-display';
+import {GeoJSONCoordinate as Point, Feature as GeoJSONFeature} from '@xyzmaps/xyz-maps-core';
+import {geotools} from '@xyzmaps/xyz-maps-common';
+import {Map as MapDisplay} from '@xyzmaps/xyz-maps-display';
 import {getClosestPntOnLine, getPntOnLine, getDistance} from '../geometry';
 import oTools from '../features/oTools';
 import {Feature} from '../features/feature/Feature';

@@ -26,7 +26,7 @@ import {FlexArray} from './templates/FlexArray';
 import {FlexAttribute} from './templates/TemplateBuffer';
 import {PASS} from '../program/GLStates';
 import {createImageBuffer} from './createImageBuffer';
-import {Color as ColorUtils} from '@here/xyz-maps-common';
+import {Color as ColorUtils} from '@xyzmaps/xyz-maps-common';
 import {CompiledUniformMap} from '../program/Program';
 
 const {toRGB} = ColorUtils;

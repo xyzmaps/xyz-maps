@@ -47,12 +47,12 @@ const result = await Bun.build({
         syntax: true
     } : false,
     sourcemap: production ? 'none' : 'inline',
-    external: ['@here/xyz-maps-common'],
+    external: ['@xyzmaps/xyz-maps-common'],
     banner
 });
 
 if (!result.success) {
-    console.error('Build failed for @here/xyz-maps-core:');
+    console.error('Build failed for @xyzmaps/xyz-maps-core:');
     for (const message of result.logs) {
         console.error(message);
     }

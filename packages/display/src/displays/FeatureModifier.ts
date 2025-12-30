@@ -19,7 +19,7 @@
 
 import BasicDisplay from './BasicDisplay';
 import BasicRender from './BasicRender';
-import {Tile, Feature, TileLayer, GeoJSONBBox, GeoJSONCoordinate, Style} from '@here/xyz-maps-core';
+import {Tile, Feature, TileLayer, GeoJSONBBox, GeoJSONCoordinate, Style} from '@xyzmaps/xyz-maps-core';
 
 let UNDEF;
 

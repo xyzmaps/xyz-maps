@@ -19,13 +19,13 @@
 
 import {FeatureProvider as FeatureTileProvider} from './FeatureProvider';
 import {Feature} from '../features/Feature';
-import {JSUtils} from '@here/xyz-maps-common';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import {
     NavlinkSplitHook,
     NavlinkDisconnectHook,
     FeatureRemoveHook,
     CoordinatesUpdateHook
-} from '@here/xyz-maps-editor';
+} from '@xyzmaps/xyz-maps-editor';
 import {GeoJSONCoordinate} from '../features/GeoJSON';
 import {TileProviderOptions} from './TileProvider/TileProviderOptions';
 

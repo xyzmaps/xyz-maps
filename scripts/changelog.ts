@@ -36,5 +36,5 @@ const packages = ['common', 'core', 'display', 'editor'];
         console.error(e);
     }
 })();
-// lerna run --scope @here/xyz-maps-playground build -- --environment BUILD:production --environment api-path:../ --environment doc-path:../documentation/
+// lerna run --scope @xyzmaps/xyz-maps-playground build -- --environment BUILD:production --environment api-path:../ --environment doc-path:../documentation/
 

@@ -20,8 +20,8 @@
 import environments from 'environments';
 // @ts-ignore
 import credentials from 'credentials';
-import {GeoJSONFeature, ClusterTileLayer, TileLayer, FeatureProvider} from '@here/xyz-maps-core';
-import * as XYZMapsCore from '@here/xyz-maps-core';
+import {GeoJSONFeature, ClusterTileLayer, TileLayer, FeatureProvider} from '@xyzmaps/xyz-maps-core';
+import * as XYZMapsCore from '@xyzmaps/xyz-maps-core';
 import {TestLocalProvider, TestProvider} from '../TestProvider';
 import {spacePool} from '../runner';
 

@@ -1,5 +1,5 @@
-import {MVTLayer} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {MVTLayer} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 // This example demonstrates the `singleWorldView` option,
 // which controls whether the map repeats infinitely when zoomed out.

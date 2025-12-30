@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {AmbientLight, DirectionalLight} from '@here/xyz-maps-core';
-import {vec3, Color} from '@here/xyz-maps-common';
+import {AmbientLight, DirectionalLight} from '@xyzmaps/xyz-maps-core';
+import {vec3, Color} from '@xyzmaps/xyz-maps-common';
 // import multiply = vec3.multiply;
 import add = vec3.add;
 import toRGB = Color.toRGB;

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {Color as Colors, Task, TaskManager, TaskSequence} from '@here/xyz-maps-common';
+import {Color as Colors, Task, TaskManager, TaskSequence} from '@xyzmaps/xyz-maps-common';
 import {GeometryBuffer} from './../GeometryBuffer';
 import {getPolygonCenter, getValue} from '../../../styleTools';
 import {
@@ -27,7 +27,7 @@ import {
     Tile,
     TileLayer,
     webMercator
-} from '@here/xyz-maps-core';
+} from '@xyzmaps/xyz-maps-core';
 import {Layer} from '../../../Layers';
 import {CollisionGroup, FeatureFactory, GroupMap, isDynamicProperty} from '../FeatureFactory';
 import {GlyphTexture} from '../../GlyphTexture';

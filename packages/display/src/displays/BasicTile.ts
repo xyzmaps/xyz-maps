@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {Task} from '@here/xyz-maps-common';
-import {TileLayer} from '@here/xyz-maps-core';
+import {Task} from '@xyzmaps/xyz-maps-common';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 import {Layers} from './Layers';
 import BasicBucket from './BasicBucket';
 import basicBucket from './BasicBucket';

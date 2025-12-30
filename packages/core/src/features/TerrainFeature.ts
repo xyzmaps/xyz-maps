@@ -18,7 +18,7 @@
  */
 import {Feature} from './Feature';
 import {GeoJSONCoordinate} from './GeoJSON';
-import {TerrainTileProvider, TileLayer} from '@here/xyz-maps-core';
+import {TerrainTileProvider, TileLayer} from '@xyzmaps/xyz-maps-core';
 
 
 export type TerrainTileMesh = {

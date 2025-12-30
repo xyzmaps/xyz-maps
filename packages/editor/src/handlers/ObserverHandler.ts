@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {Listener} from '@here/xyz-maps-common';
+import {Listener} from '@xyzmaps/xyz-maps-common';
 
 const supportedObservers = [
     'ready',

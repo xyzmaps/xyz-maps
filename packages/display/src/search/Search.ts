@@ -18,7 +18,7 @@
  */
 
 import Hit from './Hit';
-import {CustomLayer, Feature, TileLayer, TileLayerOptions} from '@here/xyz-maps-core';
+import {CustomLayer, Feature, TileLayer, TileLayerOptions} from '@xyzmaps/xyz-maps-core';
 import {Map} from '../Map';
 import {Layers} from '../displays/Layers';
 

@@ -27,7 +27,7 @@ import {Search} from './search/Search';
 import {MapEvent} from './event/Event';
 import MapViewListener from './MapViewListener';
 import UI from './ui/UI';
-import {JSUtils, Listener} from '@here/xyz-maps-common';
+import {JSUtils, Listener} from '@xyzmaps/xyz-maps-common';
 import {ZoomAnimator} from './animation/ZoomAnimator';
 import {KineticPanAnimator} from './animation/KineticPanAnimator';
 import {defaultOptions, MapOptions} from './MapOptions';
@@ -48,7 +48,7 @@ import {
     CustomLayer,
     Color,
     TerrainTileLayer
-} from '@here/xyz-maps-core';
+} from '@xyzmaps/xyz-maps-core';
 import {FlightAnimator} from './animation/FlightAnimator';
 import Copyright from './ui/copyright/Copyright';
 import Logo from './ui/Logo';
@@ -194,7 +194,7 @@ export class Map {
      *
      * @example
      * ```typescript
-     * import {Map} from '@here/xyz-maps-display';
+     * import {Map} from '@xyzmaps/xyz-maps-display';
      *
      * //create map display
      * const display = new Map( mapDiv, {

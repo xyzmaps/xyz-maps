@@ -18,7 +18,7 @@
  */
 
 import InternalEditor from '../../IEditor';
-import {Feature, FeatureProvider, GeoJSONFeature} from '@here/xyz-maps-core';
+import {Feature, FeatureProvider, GeoJSONFeature} from '@xyzmaps/xyz-maps-core';
 import {Area} from './Area';
 import {AreaShape} from './AreaShape';
 

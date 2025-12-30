@@ -1,5 +1,5 @@
-import {MVTLayer, CustomLayer, webMercator} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {MVTLayer, CustomLayer, webMercator} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 
 /** setup the map and "basemap" layer **/

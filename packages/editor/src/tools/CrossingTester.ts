@@ -19,11 +19,11 @@
 
 import {Crossing} from '../API/MCrossing';
 import {intersectLineLine3d} from '../geometry';
-import {geotools as geoTools} from '@here/xyz-maps-common';
+import {geotools as geoTools} from '@xyzmaps/xyz-maps-common';
 import linkTools from '../features/link/NavlinkTools';
 import {Navlink} from '../features/link/Navlink';
 import InternalEditor from '../IEditor';
-import {GeoJSONCoordinate, Style} from '@here/xyz-maps-core';
+import {GeoJSONCoordinate, Style} from '@xyzmaps/xyz-maps-core';
 
 let UNDEF;
 

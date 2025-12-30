@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {LocalProvider, SpaceProvider} from '@here/xyz-maps-core';
+import {LocalProvider, SpaceProvider} from '@xyzmaps/xyz-maps-core';
 
 type Feature = any;
 type Navlink = any;

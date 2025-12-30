@@ -18,7 +18,7 @@
  */
 
 import {describe, it, expect} from 'bun:test';
-import {JSONExpression, ExpressionMode, ExpressionParser} from '@here/xyz-maps-common';
+import {JSONExpression, ExpressionMode, ExpressionParser} from '@xyzmaps/xyz-maps-common';
 
 describe('Expressions', () => {
     function expectExpression(type: string, exp: any) {

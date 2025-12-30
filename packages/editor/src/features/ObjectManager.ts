@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import MapDisplay from '@here/xyz-maps-display';
+import MapDisplay from '@xyzmaps/xyz-maps-display';
 import oTools from './oTools';
 import linkTools from './link/NavlinkTools';
 import locationTools from './location/LocationTools';
@@ -32,8 +32,8 @@ import {
     EditableFeatureProvider,
     EditableRemoteTileProvider,
     GeoJSONCoordinate
-} from '@here/xyz-maps-core';
-import {Map, JSUtils, geotools, vec3} from '@here/xyz-maps-common';
+} from '@xyzmaps/xyz-maps-core';
+import {Map, JSUtils, geotools, vec3} from '@xyzmaps/xyz-maps-common';
 import {getClosestPntOnLine, intersectBBox, rayIntersectPlane} from '../geometry';
 import {Navlink} from './link/Navlink';
 import InternalEditor from '../IEditor';

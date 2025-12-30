@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils, global} from '@here/xyz-maps-common';
+import {JSUtils, global} from '@xyzmaps/xyz-maps-common';
 import {Feature} from './features/feature/Feature';
 import Editor from './API/Editor';
 import {DefaultEditorProperties} from './features/feature/EditorProperties';

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {LRU, global} from '@here/xyz-maps-common';
+import {LRU, global} from '@xyzmaps/xyz-maps-common';
 import CanvasTile from './CanvasTile';
 import ctxCache from './ctxCache';
 import BasicBucket from '../BasicBucket';

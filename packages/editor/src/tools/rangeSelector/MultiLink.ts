@@ -23,8 +23,8 @@ import {Line} from '../../features/line/Line';
 import InternalEditor from '../../IEditor';
 import {InternalRangeOptions, Range} from './Range';
 import ObjectOverlay from '../../features/Overlay';
-import {GeoJSONCoordinate, GeoJSONFeature, Style, StyleGroup, Feature, LineStyle} from '@here/xyz-maps-core';
-import {JSUtils} from '@here/xyz-maps-common';
+import {GeoJSONCoordinate, GeoJSONFeature, Style, StyleGroup, Feature, LineStyle} from '@xyzmaps/xyz-maps-core';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 
 function mergeConnectedPaths(path1, path2) {
     return path1.concat(path2.slice(1));

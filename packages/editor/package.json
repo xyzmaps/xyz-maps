@@ -1,5 +1,5 @@
 {
-  "name": "@here/xyz-maps-editor",
+  "name": "@xyzmaps/xyz-maps-editor",
   "version": "0.44.0",
   "description": "XYZ editor.",
   "author": {
@@ -30,9 +30,9 @@
     "update-changelog": "bunx build-changelog"
   },
   "dependencies": {
-    "@here/xyz-maps-common": "^0.44.0",
-    "@here/xyz-maps-core": "^0.44.0",
-    "@here/xyz-maps-display": "^0.44.0"
+    "@xyzmaps/xyz-maps-common": "^0.44.0",
+    "@xyzmaps/xyz-maps-core": "^0.44.0",
+    "@xyzmaps/xyz-maps-display": "^0.44.0"
   },
   "devDependencies": {
     "tslib": "^2.4.0",

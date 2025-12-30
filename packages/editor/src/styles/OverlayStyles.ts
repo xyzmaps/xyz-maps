@@ -34,12 +34,12 @@ import iconAllowed from '../../assets/icons/thoroughfare_24.gif';
 // @ts-ignore
 import iconPedestrian from '../../assets/icons/pedestrian_24.gif';
 
-import {styleTools} from '@here/xyz-maps-display';
+import {styleTools} from '@xyzmaps/xyz-maps-display';
 // @ts-ignore
 import iconRotateBlack from '../../assets/icons/rotate.black.gif';
 // @ts-ignore
 import iconRotateWhite from '../../assets/icons/rotate.white.gif';
-import {XYZLayerStyle} from '@here/xyz-maps-core';
+import {XYZLayerStyle} from '@xyzmaps/xyz-maps-core';
 
 let UNDEF;
 

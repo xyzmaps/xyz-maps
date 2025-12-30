@@ -18,7 +18,7 @@
  */
 
 import Painter from './Painter';
-import {TaskManager} from '@here/xyz-maps-common';
+import {TaskManager} from '@xyzmaps/xyz-maps-common';
 import BasicRender from '../BasicRender';
 import CanvasTile from './CanvasTile';
 

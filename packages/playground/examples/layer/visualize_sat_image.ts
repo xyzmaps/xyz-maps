@@ -1,5 +1,5 @@
-import {TileLayer, ImageProvider} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {TileLayer, ImageProvider} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 // Create a TileLayer using a ImageProvider
 var myLayer = new TileLayer({

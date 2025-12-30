@@ -22,7 +22,7 @@ import RotateKnob from './RotateKnob';
 import ScaleKnob from './ScaleKnob';
 import MoveKnob from './MoveKnob';
 import ScaleBox, {createRectGeometry} from './ScaleBox';
-import {GeoJSONFeature, GeoJSONCoordinate, GeoJSONCoordinate as Point} from '@here/xyz-maps-core';
+import {GeoJSONFeature, GeoJSONCoordinate, GeoJSONCoordinate as Point} from '@xyzmaps/xyz-maps-core';
 import InternalEditor from '../../IEditor';
 // @ts-ignore
 import iconRotateBlack from '../../../assets/icons/rotate.black.gif';

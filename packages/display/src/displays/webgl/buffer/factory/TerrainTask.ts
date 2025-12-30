@@ -16,8 +16,8 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {Task, TaskOptions} from '@here/xyz-maps-common';
-import {TerrainTileLayer} from '@here/xyz-maps-core';
+import {Task, TaskOptions} from '@xyzmaps/xyz-maps-common';
+import {TerrainTileLayer} from '@xyzmaps/xyz-maps-core';
 import {GeometryBuffer} from '../GeometryBuffer';
 import GLTile from '../../GLTile';
 import {Texture} from '../../Texture';

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {build} from '@here/xyz-maps-core';
+import {build} from '@xyzmaps/xyz-maps-core';
 import SpacePool from './utils/spacePool';
 // @ts-ignore
 import cleanupServer from 'cleanupServer';

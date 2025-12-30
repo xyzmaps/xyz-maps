@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {LRU} from '@here/xyz-maps-common';
+import {LRU} from '@xyzmaps/xyz-maps-common';
 import {Texture, ImageData} from './Texture';
 
 

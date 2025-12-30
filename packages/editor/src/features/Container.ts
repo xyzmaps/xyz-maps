@@ -19,7 +19,7 @@
 
 import oTools from './oTools';
 import InternalEditor from '../IEditor';
-import {TileLayer} from '@here/xyz-maps-core';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 import {Feature} from './feature/Feature';
 
 let UNDEF;

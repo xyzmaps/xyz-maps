@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {TileLayer} from '@here/xyz-maps-core';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 
 export type CopyrightSourceScope = {
     minLevel: number,

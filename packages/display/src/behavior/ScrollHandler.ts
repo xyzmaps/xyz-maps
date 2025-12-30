@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {global as WIN} from '@here/xyz-maps-common';
+import {global as WIN} from '@xyzmaps/xyz-maps-common';
 import {addEventListener, removeEventListener} from '../DOMTools';
 
 const isWin = navigator.platform.indexOf('Win') === 0;

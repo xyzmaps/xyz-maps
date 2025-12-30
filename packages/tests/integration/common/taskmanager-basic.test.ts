@@ -18,7 +18,7 @@
  */
 
 import {describe, it, expect} from 'bun:test';
-import {TaskManager} from '@here/xyz-maps-common';
+import {TaskManager} from '@xyzmaps/xyz-maps-common';
 
 describe('task manager', () => {
     let taskmanager = TaskManager.getInstance(5);

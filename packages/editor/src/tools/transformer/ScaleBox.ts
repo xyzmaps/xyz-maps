@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {Feature, GeoJSONCoordinate, Style} from '@here/xyz-maps-core';
+import {Feature, GeoJSONCoordinate, Style} from '@xyzmaps/xyz-maps-core';
 import Overlay from '../../features/Overlay';
 import InternalEditor from '../../IEditor';
 import Transformer, {Corner} from './Transformer';

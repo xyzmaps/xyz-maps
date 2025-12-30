@@ -18,7 +18,7 @@
  */
 
 import {addEventListener, removeEventListener} from '../DOMTools';
-import {global as WIN} from '@here/xyz-maps-common';
+import {global as WIN} from '@xyzmaps/xyz-maps-common';
 import {ScrollHandler} from './ScrollHandler';
 import {Map} from '../Map';
 import {Animation} from '../animation/Animation';

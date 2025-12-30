@@ -16,7 +16,7 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {AStar, AStarNode, geotools} from '@here/xyz-maps-common';
+import {AStar, AStarNode, geotools} from '@xyzmaps/xyz-maps-common';
 import {FeatureProvider} from '../providers/FeatureProvider';
 import {Feature} from '../features/Feature';
 

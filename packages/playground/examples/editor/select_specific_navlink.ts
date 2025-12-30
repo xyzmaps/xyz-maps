@@ -1,6 +1,6 @@
-import {MVTLayer, TileLayer, SpaceProvider} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
-import {Editor, Navlink} from '@here/xyz-maps-editor';
+import {MVTLayer, TileLayer, SpaceProvider} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
+import {Editor, Navlink} from '@xyzmaps/xyz-maps-editor';
 
 /** setup the Map **/
 // Create a custom provider.

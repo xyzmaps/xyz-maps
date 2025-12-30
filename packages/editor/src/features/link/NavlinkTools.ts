@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {Feature, GeoJSONBBox as BBox, GeoJSONCoordinate, StyleGroup} from '@here/xyz-maps-core';
-import {geotools, JSUtils} from '@here/xyz-maps-common';
+import {Feature, GeoJSONBBox as BBox, GeoJSONCoordinate, StyleGroup} from '@xyzmaps/xyz-maps-core';
+import {geotools, JSUtils} from '@xyzmaps/xyz-maps-common';
 import {getPointAtLength, getTotalLength, getPntAt, getSegmentIndex, getClosestPntOnLine} from '../../geometry';
 import {calcRelPosOfPoiAtLink} from '../../map/GeoMath';
 import locTools from '../location/LocationTools';

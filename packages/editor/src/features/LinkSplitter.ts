@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {GeoJSONCoordinate} from '@here/xyz-maps-core';
-import {JSUtils} from '@here/xyz-maps-common';
+import {GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import locTools from './location/LocationTools';
 import linkTools from './link/NavlinkTools';
 import {Navlink} from './link/Navlink';

@@ -19,7 +19,7 @@
 
 import {addPolygon, FlatPolygon} from './addPolygon';
 import {isInBox} from '../../../geometry';
-import {Tile, GeoJSONCoordinate as Coordinate} from '@here/xyz-maps-core';
+import {Tile, GeoJSONCoordinate as Coordinate} from '@xyzmaps/xyz-maps-core';
 import {FlexArray} from './templates/FlexArray';
 import {TypedArray} from './glType';
 

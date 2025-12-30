@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils} from '@here/xyz-maps-common';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import {FeatureProvider} from '../providers/FeatureProvider';
 import {GeoJSONFeature, GeoJSONBBox, GeoJSONCoordinate} from './GeoJSON';
 import {TileLayer} from '../layers/TileLayer';

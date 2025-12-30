@@ -20,11 +20,11 @@
 
 import {Navlink} from '../../features/link/Navlink';
 import {movePointOnPath} from '../../geometry';
-import {geotools} from '@here/xyz-maps-common';
+import {geotools} from '@xyzmaps/xyz-maps-common';
 import {getDirection, isPedestrianOnly} from './utils';
 import TurnRestriction from './TurnRestriction';
 import Overlay from '../../features/Overlay';
-import {Feature} from '@here/xyz-maps-core';
+import {Feature} from '@xyzmaps/xyz-maps-core';
 import tools from '../../features/link/NavlinkTools';
 
 enum DIRECTION {

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils, global} from '@here/xyz-maps-common';
+import {JSUtils, global} from '@xyzmaps/xyz-maps-common';
 import {
     GeoPoint,
     TileLayer,
@@ -27,8 +27,8 @@ import {
     GeoJSONFeature,
     GeoJSONCoordinate,
     GeoJSONBBox, EditableFeatureProvider
-} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 import {DrawingBoard} from './DrawingBoard';
 import {RangeSelector} from './ERangeSelector';
 import InternalEditor from '../IEditor';
@@ -155,8 +155,8 @@ export default class Editor {
      *
      * @example
      * ```
-     *  import {Map} from '@here/xyz-maps-display';
-     *  import {Editor} from '@here/xyz-maps-editor';
+     *  import {Map} from '@xyzmaps/xyz-maps-display';
+     *  import {Editor} from '@xyzmaps/xyz-maps-editor';
      *
      *  //create map display
      *  const display = new Map( mapDiv, {

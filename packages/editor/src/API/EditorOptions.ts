@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils} from '@here/xyz-maps-common';
-import {TileLayer} from '@here/xyz-maps-core';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 import {Feature} from '../features/feature/Feature';
 
 export enum EDIT_RESTRICTION {

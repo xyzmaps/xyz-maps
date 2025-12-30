@@ -16,8 +16,8 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {TaskManager, Task, TaskOptions} from '@here/xyz-maps-common';
-import {LocalProvider, Tile, TileLayer, tileUtils, webMercator} from '@here/xyz-maps-core';
+import {TaskManager, Task, TaskOptions} from '@xyzmaps/xyz-maps-common';
+import {LocalProvider, Tile, TileLayer, tileUtils, webMercator} from '@xyzmaps/xyz-maps-core';
 import Display from './Display';
 import {Attribute} from './buffer/Attribute';
 import {Layer} from '../Layers';

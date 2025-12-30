@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {TaskSequence} from '@here/xyz-maps-common';
-import {Tile} from '@here/xyz-maps-core';
+import {TaskSequence} from '@xyzmaps/xyz-maps-common';
+import {Tile} from '@xyzmaps/xyz-maps-core';
 import {Layer} from '../../../Layers';
 import {FeatureFactory} from '../FeatureFactory';
 import {DisplayTileTask} from '../../../BasicTile';

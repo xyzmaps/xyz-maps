@@ -18,7 +18,7 @@
  */
 
 import {getPntAt} from '../geometry';
-import {geotools} from '@here/xyz-maps-common';
+import {geotools} from '@xyzmaps/xyz-maps-common';
 import Overlay from '../features/Overlay';
 import {Navlink} from '../features/link/Navlink';
 import {Line} from '../features/line/Line';

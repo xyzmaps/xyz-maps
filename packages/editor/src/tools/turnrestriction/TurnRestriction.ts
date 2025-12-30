@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils, geotools} from '@here/xyz-maps-common';
+import {JSUtils, geotools} from '@xyzmaps/xyz-maps-common';
 import {movePointOnPath} from '../../geometry';
 import linkTools from '../../features/link/NavlinkTools';
 import {isTurnAllowed, isPedestrianOnly, getProperty, setProperty} from './utils';

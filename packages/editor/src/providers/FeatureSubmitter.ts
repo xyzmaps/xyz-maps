@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {global, JSUtils} from '@here/xyz-maps-common';
+import {global, JSUtils} from '@xyzmaps/xyz-maps-common';
 import InternalEditor from '../IEditor';
 
 const COORDINATES = 'coordinates';

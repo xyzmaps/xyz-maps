@@ -27,8 +27,8 @@ import {subtract, scale as scaleVec3, normalize as normalizeVec3} from 'gl-matri
 import {create as createQuat, fromEuler} from 'gl-matrix/quat';
 import {isTypedArray, TypedArray} from '../glType';
 import {Attribute} from '../Attribute';
-import {Color} from '@here/xyz-maps-common';
-import {ModelGeometry} from '@here/xyz-maps-core';
+import {Color} from '@xyzmaps/xyz-maps-common';
+import {ModelGeometry} from '@xyzmaps/xyz-maps-core';
 
 import toRGB = Color.toRGB;
 

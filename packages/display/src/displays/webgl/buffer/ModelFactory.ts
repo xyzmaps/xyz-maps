@@ -19,9 +19,9 @@
 import {Texture, TextureOptions, ImageData, TextureData} from '../Texture';
 import {ModelBuffer} from './templates/ModelBuffer';
 import {TemplateBufferBucket} from './templates/TemplateBufferBucket';
-import {ModelData, Material} from '@here/xyz-maps-core';
+import {ModelData, Material} from '@xyzmaps/xyz-maps-core';
 import {ObjParser} from '../ObjParser';
-import {vec3} from '@here/xyz-maps-common';
+import {vec3} from '@xyzmaps/xyz-maps-common';
 import {TypedArray} from './glType';
 
 class ModelTexture extends Texture {

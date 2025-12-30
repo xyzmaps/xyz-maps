@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {GeoJSONBBox} from '@here/xyz-maps-core';
+import {GeoJSONBBox} from '@xyzmaps/xyz-maps-core';
 
 const TORAD = Math.PI / 180;
 const TODEG = 180 / Math.PI;

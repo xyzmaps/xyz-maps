@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {Feature} from '@here/xyz-maps-core';
-import {JSUtils} from '@here/xyz-maps-common';
+import {Feature} from '@xyzmaps/xyz-maps-core';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import GeoFence from './GeoFence';
 import {Navlink} from './Navlink';
 import navlinkTools from './NavlinkTools';

@@ -1,5 +1,5 @@
-import {MVTLayer, LayerStyle} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {MVTLayer, LayerStyle} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 const style: LayerStyle = {
     backgroundColor: '#ECE0CA',

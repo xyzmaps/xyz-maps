@@ -1,5 +1,5 @@
-import {LayerStyle, MVTLayer, TileLayer, LocalProvider, ModelStyle} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {LayerStyle, MVTLayer, TileLayer, LocalProvider, ModelStyle} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 const treeLayer = new TileLayer({
     provider: new LocalProvider(),

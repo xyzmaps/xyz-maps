@@ -1,5 +1,5 @@
-import {MVTLayer, TileLayer, LocalProvider} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
+import {MVTLayer, TileLayer, LocalProvider} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
 
 /** setup layers and display **/
 var baseMapLayer = new MVTLayer({

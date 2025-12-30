@@ -19,7 +19,7 @@
 
 import {Feature} from '../features/Feature';
 import Provider from './TileProvider/TileProvider';
-import {AStar, geometry, geotools} from '@here/xyz-maps-common';
+import {AStar, geometry, geotools} from '@xyzmaps/xyz-maps-common';
 import {Tile} from '../tile/Tile';
 import {calcBBox} from '../features/utils';
 import RTree from '../features/RTree';

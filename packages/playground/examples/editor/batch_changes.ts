@@ -1,6 +1,6 @@
-import {MVTLayer, TileLayer, SpaceProvider, GeoJSONCoordinate} from '@here/xyz-maps-core';
-import {Map} from '@here/xyz-maps-display';
-import {Editor, Marker} from '@here/xyz-maps-editor';
+import {MVTLayer, TileLayer, SpaceProvider, GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
+import {Map} from '@xyzmaps/xyz-maps-display';
+import {Editor, Marker} from '@xyzmaps/xyz-maps-editor';
 
 /** setup the Map **/
 let backgroundLayer = new MVTLayer({

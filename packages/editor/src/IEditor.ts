@@ -17,9 +17,9 @@
  * License-Filename: LICENSE
  */
 
-import {JSUtils} from '@here/xyz-maps-common';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import Transformer from './tools/transformer/Transformer';
-import {TileLayer, EditableRemoteTileProvider, StyleGroup, Feature} from '@here/xyz-maps-core';
+import {TileLayer, EditableRemoteTileProvider, StyleGroup, Feature} from '@xyzmaps/xyz-maps-core';
 import {EditorOptions} from './API/EditorOptions';
 import ObserverHandler from './handlers/ObserverHandler';
 import EventHandler from './handlers/EventHandler';
@@ -27,7 +27,7 @@ import ObjectManager from './features/ObjectManager';
 import DisplayListener from './DisplayListener';
 import Hooks from './Hooks';
 import Map from './map/Map';
-import {Map as Display, styleTools} from '@here/xyz-maps-display';
+import {Map as Display, styleTools} from '@xyzmaps/xyz-maps-display';
 import {RangeSelector} from './API/ERangeSelector';
 import {DrawingBoard} from './API/DrawingBoard';
 

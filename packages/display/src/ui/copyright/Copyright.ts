@@ -20,7 +20,7 @@
 import UIComponent from '../UIComponent';
 import Details from './CopyrightDetails';
 import {CopyrightSource, CopyrightSourceScope} from './CopyrightSource';
-import {global, Map, JSUtils} from '@here/xyz-maps-common';
+import {global, Map, JSUtils} from '@xyzmaps/xyz-maps-common';
 import {Map as Display} from '../../Map';
 import {MapEvent} from '../../event/Event';
 import defaultOwner from '../../generated/ui-default-cOwner.js';

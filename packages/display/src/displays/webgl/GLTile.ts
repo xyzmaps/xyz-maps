@@ -19,7 +19,7 @@
 
 import BasicTile from '../BasicTile';
 
-import {TileLayer} from '@here/xyz-maps-core';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 import {GeometryBuffer} from './buffer/GeometryBuffer';
 import {Layers} from '../Layers';
 import Bucket from './Bucket';

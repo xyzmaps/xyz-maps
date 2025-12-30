@@ -16,8 +16,8 @@
  * SPDX-License-Identifier: Apache-2.0
  * License-Filename: LICENSE
  */
-import {GeoJSONCoordinate} from '@here/xyz-maps-core';
-import {geotools} from '@here/xyz-maps-common';
+import {GeoJSONCoordinate} from '@xyzmaps/xyz-maps-core';
+import {geotools} from '@xyzmaps/xyz-maps-common';
 import {AnimationController} from './AnimationController';
 import {Map} from '../Map';
 
@@ -37,7 +37,7 @@ const smoothAngle = (prev: number, next: number, alpha: number): number => {
  *
  * **Example:**
  * ```typescript
- * import {FollowPathAnimationController} from '@here/xyz-maps-display';
+ * import {FollowPathAnimationController} from '@xyzmaps/xyz-maps-display';
  *
  * const path: GeoJSONCoordinate[] = [
  *   [13.405, 52.52], [13.406, 52.521], [13.407, 52.522]

@@ -17,7 +17,7 @@
  * License-Filename: LICENSE
  */
 
-import {TileLayer} from '@here/xyz-maps-core';
+import {TileLayer} from '@xyzmaps/xyz-maps-core';
 import {Feature} from '../features/feature/Feature';
 import {Place} from '../features/location/Place';
 import {Address} from '../features/location/Address';

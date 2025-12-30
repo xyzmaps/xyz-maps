@@ -23,7 +23,7 @@ import {Texture} from '../Texture';
 import {ConstantAttribute, FlexAttribute, TemplateBuffer} from './templates/TemplateBuffer';
 import {Raycaster} from '../Raycaster';
 import {PASS} from '../program/GLStates';
-import {Expression} from '@here/xyz-maps-common';
+import {Expression} from '@xyzmaps/xyz-maps-common';
 import {TilePreviewInfo} from '../../Preview';
 import {HeightMapTileCache} from '../HeightMapTileCache';
 

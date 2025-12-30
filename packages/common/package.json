@@ -1,5 +1,5 @@
 {
-  "name": "@here/xyz-maps-common",
+  "name": "@xyzmaps/xyz-maps-common",
   "version": "0.44.0",
   "description": "Commonly used libraries of XYZ Maps.",
   "author": {

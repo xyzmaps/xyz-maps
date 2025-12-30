@@ -18,7 +18,7 @@
  */
 
 import {RemoteTileProviderOptions} from './RemoteTileProviderOptions';
-import {NavlinkSplitHook, NavlinkDisconnectHook, FeatureRemoveHook, CoordinatesUpdateHook} from '@here/xyz-maps-editor';
+import {NavlinkSplitHook, NavlinkDisconnectHook, FeatureRemoveHook, CoordinatesUpdateHook} from '@xyzmaps/xyz-maps-editor';
 
 /**
  *  Options to configure an EditableRemoteTile.

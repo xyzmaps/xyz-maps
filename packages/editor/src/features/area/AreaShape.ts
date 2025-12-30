@@ -20,7 +20,7 @@
 import {intersectLineLine} from '../../geometry';
 import InternalEditor from '../../IEditor';
 import {Area} from './Area';
-import {FeatureProvider, Feature, GeoJSONCoordinate, GeoJSONFeature} from '@here/xyz-maps-core';
+import {FeatureProvider, Feature, GeoJSONCoordinate, GeoJSONFeature} from '@xyzmaps/xyz-maps-core';
 import PolyTools, {ConnectedArea} from './PolygonTools';
 import {EDIT_RESTRICTION} from '../../API/EditorOptions';
 

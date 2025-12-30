@@ -17,8 +17,8 @@
  * License-Filename: LICENSE
  */
 
-import {GeoJSONCoordinate as Point} from '@here/xyz-maps-core';
-import {geometry, geotools, vec3} from '@here/xyz-maps-common';
+import {GeoJSONCoordinate as Point} from '@xyzmaps/xyz-maps-core';
+import {geometry, geotools, vec3} from '@xyzmaps/xyz-maps-common';
 
 
 const MATH = Math;

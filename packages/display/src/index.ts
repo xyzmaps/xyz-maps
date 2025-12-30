@@ -18,7 +18,7 @@
  */
 
 import {Map} from './Map';
-import {global} from '@here/xyz-maps-common';
+import {global} from '@xyzmaps/xyz-maps-common';
 import * as styleTools from './displays/styleTools';
 
 import {transformMat4} from 'gl-matrix/vec3';

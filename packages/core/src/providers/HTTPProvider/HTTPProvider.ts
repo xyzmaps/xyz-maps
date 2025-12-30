@@ -20,7 +20,7 @@
 import {EditableRemoteTileProvider} from '../RemoteTileProvider/EditableRemoteTileProvider';
 import LoaderManager from '../../loaders/Manager';
 import {HTTPLoader} from '../../loaders/HTTPLoader';
-import {JSUtils} from '@here/xyz-maps-common';
+import {JSUtils} from '@xyzmaps/xyz-maps-common';
 import {HTTPProviderOptions} from './HTTPProviderOptions';
 import {Feature} from '../../features/Feature';
 

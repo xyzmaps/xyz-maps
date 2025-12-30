@@ -19,7 +19,7 @@
 
 import BasicTile from './BasicTile';
 
-import {LRU} from '@here/xyz-maps-common';
+import {LRU} from '@xyzmaps/xyz-maps-common';
 
 
 abstract class BasicBucket {
