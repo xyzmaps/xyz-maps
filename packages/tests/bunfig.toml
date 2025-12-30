@@ -1,0 +1,15 @@
+[test]
+# Bun test configuration
+preload = ["./test-utils/setup.ts"]
+timeout = 20000
+
+# Coverage settings
+coverage = true
+coverageReporter = ["text", "lcov"]
+coverageThreshold = 0
+
+# Test file patterns - only new Bun tests
+testMatch = ["unit/**/*.test.ts", "integration/**/*.test.ts"]
+
+# Exclude old Mocha tests
+testIgnore = ["specs/**/*", "src/**/*", "statics/**/*", "node_modules/**/*"]

@@ -1,0 +1,16 @@
+TN:
+SF:../common/dist/xyz-maps-common.min.js
+FNF:281
+FNH:53
+DA:5,55579
+LF:1
+LH:1
+end_of_record
+TN:
+SF:test-utils/setup.ts
+FNF:1
+FNH:1
+DA:26,97
+LF:1
+LH:1
+end_of_record

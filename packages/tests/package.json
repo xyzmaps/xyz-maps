@@ -14,38 +14,18 @@
   },
   "private": true,
   "scripts": {
-    "build": "node build.js --buildTests",
-    "watch": "node build.js --buildTestsWatch",
-    "test": "node build.js --test"
+    "test": "bun test unit/ integration/",
+    "test:unit": "bun test unit/",
+    "test:integration": "bun test integration/",
+    "test:watch": "bun test unit/ integration/ --watch",
+    "test:coverage": "bun test unit/ integration/ --coverage"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^22.0.2",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@rollup/plugin-typescript": "^8.3.4",
-    "@rollup/plugin-virtual": "^2.1.0",
-    "@types/chai": "^4.3.3",
-    "@types/chai-almost": "^1.0.1",
-    "@types/mocha": "^9.1.1",
-    "chai": "~4.3.6",
-    "chai-almost": "^1.0.1",
-    "karma": "^6.4.0",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^3.1.1",
-    "karma-firefox-launcher": "^2.1.2",
-    "karma-json-reporter": "^1.2.1",
-    "karma-mocha": "^2.0.1",
-    "mkdirp": "~1.0.4",
-    "mocha": "~10.2.0",
-    "request": "^2.88.2",
-    "rimraf": "~3.0.2",
-    "rollup": "^2.78.1",
-    "rollup-plugin-copy": "^3.4.0",
-    "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-glob-import": "^0.5.0",
-    "rollup-plugin-postcss": "^4.0.2",
+    "@here/xyz-maps-common": "^0.44.0",
+    "@here/xyz-maps-core": "^0.44.0",
+    "@here/xyz-maps-display": "^0.44.0",
+    "@here/xyz-maps-editor": "^0.44.0",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.4",
-    "yargs": "^17.5.1"
+    "typescript": "^4.7.4"
   }
 }
