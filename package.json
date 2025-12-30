@@ -1,15 +1,15 @@
 {
   "name": "@xyzmaps/xyz-maps",
-  "version": "0.44.0",
+  "version": "0.1.0",
   "description": "XYZ Editor is an experimental and work in progress open-source map editor written in TypeScript/JavaScript",
   "author": {
-    "name": "HERE Europe B.V.",
-    "url": "https://here.com"
+    "name": "XYZmaps contributors",
+    "url": "https://github.com/xyzmaps/xyz-maps"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heremaps/xyz-maps.git"
+    "url": "https://github.com/xyzmaps/xyz-maps.git"
   },
   "scripts": {
     "test": "bun test",

@@ -1,15 +1,15 @@
 {
   "name": "@xyzmaps/xyz-maps-editor",
-  "version": "0.44.0",
+  "version": "0.1.0",
   "description": "XYZ editor.",
   "author": {
-    "name": "HERE Europe B.V.",
-    "url": "https://here.com"
+    "name": "XYZmaps contributors",
+    "url": "https://github.com/xyzmaps/xyz-maps"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heremaps/xyz-maps.git",
+    "url": "https://github.com/xyzmaps/xyz-maps.git",
     "directory": "packages/editor"
   },
   "main": "dist/xyz-maps-editor.min.js",
@@ -30,9 +30,9 @@
     "update-changelog": "bunx build-changelog"
   },
   "dependencies": {
-    "@xyzmaps/xyz-maps-common": "^0.44.0",
-    "@xyzmaps/xyz-maps-core": "^0.44.0",
-    "@xyzmaps/xyz-maps-display": "^0.44.0"
+    "@xyzmaps/xyz-maps-common": "^0.1.0",
+    "@xyzmaps/xyz-maps-core": "^0.1.0",
+    "@xyzmaps/xyz-maps-display": "^0.1.0"
   },
   "devDependencies": {
     "tslib": "^2.4.0",

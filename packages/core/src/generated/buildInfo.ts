@@ -1,5 +1,5 @@
 export default {
-  "version": "0.44.0+DEV",
-  "revision": "45e69541",
-  "date": 1767108343031
+  "version": "0.1.0+DEV",
+  "revision": "28f6206c",
+  "date": 1767108948157
 };

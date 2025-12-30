@@ -1,15 +1,15 @@
 {
   "name": "@xyzmaps/xyz-maps-display",
-  "version": "0.44.0",
+  "version": "0.1.0",
   "description": "Map display of XYZ editor.",
   "author": {
-    "name": "HERE Europe B.V.",
-    "url": "https://here.com"
+    "name": "XYZmaps contributors",
+    "url": "https://github.com/xyzmaps/xyz-maps"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heremaps/xyz-maps.git",
+    "url": "https://github.com/xyzmaps/xyz-maps.git",
     "directory": "packages/display"
   },
   "main": "dist/xyz-maps-display.min.js",
@@ -30,8 +30,8 @@
   },
   "publishConfig": {},
   "dependencies": {
-    "@xyzmaps/xyz-maps-common": "^0.44.0",
-    "@xyzmaps/xyz-maps-core": "^0.44.0"
+    "@xyzmaps/xyz-maps-common": "^0.1.0",
+    "@xyzmaps/xyz-maps-core": "^0.1.0"
   },
   "devDependencies": {
     "earcut": "^3.0.2",
