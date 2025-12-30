@@ -12,23 +12,25 @@
     "url": "https://github.com/heremaps/xyz-maps.git"
   },
   "scripts": {
-    "prepare": "husky install",
-    "test": "lerna run --stream --no-prefix --scope @here/xyz-maps-test test -- ",
-    "preversion": "yarn run build-release",
-    "version": "lerna run update-changelog --parallel && ts-node scripts/bumpversion && git add -u",
-    "postversion": "yarn run bundle-release",
-    "watch-dev": "lerna run watch-dev --parallel --stream",
-    "build-dev": "lerna run build-dev --parallel --stream",
-    "build-doc": "npx typedoc ./packages/display/ ./packages/core ./packages/editor",
-    "build-release": "yarn run build-declarations && lerna run build-release --parallel --stream",
-    "bundle-release": "yarn run build-doc && yarn run build-playground && yarn run build-release",
-    "build-declarations": "lerna run build-dts --parallel --stream",
-    "playground": "yarn run build-playground && npx http-server . -d -c-1 -p 8081 -o ./packages/playground/dist",
-    "build-playground": "lerna run --scope @here/xyz-maps-playground build --stream --no-prefix",
+    "prepare": "bun run husky install",
+    "test": "bun test",
+    "test:unit": "bun test packages/tests/unit",
+    "test:integration": "bun test packages/tests/integration",
+    "preversion": "bun run build-release",
+    "version": "bun run --filter '@here/xyz-maps-{common,core,display,editor}' update-changelog && bun run scripts/bumpversion.ts && git add -u",
+    "postversion": "bun run bundle-release",
+    "watch-dev": "bun run --filter '@here/xyz-maps-{common,core,display,editor}' watch-dev",
+    "build-dev": "bun run --filter '@here/xyz-maps-{common,core,display,editor}' build-dev",
+    "build-doc": "bunx typedoc ./packages/display/ ./packages/core ./packages/editor",
+    "build-release": "bun run build-declarations && bun run --filter '@here/xyz-maps-{common,core,display,editor}' build-release",
+    "bundle-release": "bun run build-doc && bun run build-playground && bun run build-release",
+    "build-declarations": "bun run --filter '@here/xyz-maps-{common,core,display,editor}' build-dts",
+    "playground": "bun run build-playground && bunx http-server . -d -c-1 -p 8081 -o ./packages/playground/dist",
+    "build-playground": "bun run --filter @here/xyz-maps-playground build",
     "cleanup:dist": "rm -r ./packages/*/dist && ./packages/core/build/index.js ./packages/core/build/shared.js ./packages/core/build/workers.js",
     "eslint:fix": "eslint ./packages/*/src/**/*.ts --fix",
-    "server": "npx http-server . -d -c-1 -p 8080 -o ./debug",
-    "set-access-token": "ts-node build/createToken --token"
+    "server": "bunx http-server . -d -c-1 -p 8080 -o ./debug",
+    "set-access-token": "bun run build/createToken.ts --token"
   },
   "files": [
     "dist/*.min.js"
@@ -45,8 +47,8 @@
     "fs-extra": "^10.1.0",
     "http-server": "^14.1.1",
     "husky": "^8.0.1",
-    "lerna": "^7.0.2",
     "lint-staged": "^13.0.3",
+    "playwright": "^1.40.0",
     "ts-node": "^10.9.1",
     "typedoc": "^0.19.2",
     "typedoc-plugin-remove-references": "^0.0.5",
@@ -57,7 +59,7 @@
   ],
   "engines": {
     "node": ">=20",
-    "yarn": ">=1.22"
+    "bun": ">=1.0.0"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix"

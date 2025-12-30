@@ -84,8 +84,7 @@ import webMercatorPrj from './projection/webMercator';
  */
 export const webMercator = webMercatorPrj;
 
-// @ts-ignore
-import buildInfo from 'buildInfo';
+import buildInfo from './generated/buildInfo.js';
 
 
 /**

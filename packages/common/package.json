@@ -13,25 +13,24 @@
     "directory": "packages/common"
   },
   "main": "dist/xyz-maps-common.min.js",
-  "module": "dist/xyz-maps-common.esm.min.js",
+  "module": "dist/xyz-maps-common.min.js",
+  "type": "module",
   "types": "dist/xyz-maps-common.d.js",
   "files": [
     "dist/xyz*.min.js",
     "dist/xyz-maps-common.d.ts"
   ],
   "scripts": {
-    "watch-dev": "rollup -c --watch --environment BUILD:dev --bundleConfigAsCjs",
-    "build-dev": "rollup -c --environment BUILD:dev --bundleConfigAsCjs",
-    "build-release": "rollup -c --environment BUILD:production --bundleConfigAsCjs",
-    "build-dts": "npx build-dts -p .",
-    "update-changelog": "npx build-changelog"
+    "build": "bun run build.ts",
+    "build-dev": "BUILD=dev bun run build.ts",
+    "build-release": "BUILD=production bun run build.ts",
+    "watch-dev": "BUILD=dev bun run build.ts --watch",
+    "build-dts": "bunx build-dts -p .",
+    "update-changelog": "bunx build-changelog"
   },
   "browser": {},
   "publishConfig": {},
   "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^12.1.2",
-    "rollup": "^3.29.5",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },

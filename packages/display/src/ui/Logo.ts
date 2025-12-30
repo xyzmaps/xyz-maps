@@ -19,7 +19,7 @@
 
 import UIComponent from './UIComponent';
 // @ts-ignore
-import logoSrc from 'ui-logo-src';
+import logoSrc from '../generated/ui-logo-src.js';
 
 type LogoOptions = {
     visible?: boolean,

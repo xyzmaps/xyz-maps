@@ -23,10 +23,8 @@ import {CopyrightSource, CopyrightSourceScope} from './CopyrightSource';
 import {global, Map, JSUtils} from '@here/xyz-maps-common';
 import {Map as Display} from '../../Map';
 import {MapEvent} from '../../event/Event';
-// @ts-ignore
-import defaultOwner from 'ui-default-cOwner';
-// @ts-ignore
-import tacUrl from 'ui-tac-url';
+import defaultOwner from '../../generated/ui-default-cOwner.js';
+import tacUrl from '../../generated/ui-tac-url.js';
 
 const document = global.document;
 const SHOW = true;
